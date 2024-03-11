@@ -13,7 +13,7 @@ namespace prjLocadora
 {
     public partial class frmProdutoras : Form
     {
-        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650;Password=Guigoloko081092!!!;";
+        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650;Password=;";
         bool novo;
         public frmProdutoras()
         {
