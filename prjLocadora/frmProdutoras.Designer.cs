@@ -63,7 +63,7 @@ namespace prjLocadora
             this.label1.Location = new System.Drawing.Point(15, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 20);
+            this.label1.Size = new System.Drawing.Size(139, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Código Produtora";
             // 
@@ -101,7 +101,7 @@ namespace prjLocadora
             this.label4.Location = new System.Drawing.Point(322, 78);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
+            this.label4.Size = new System.Drawing.Size(57, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "E-mail";
             // 
@@ -119,7 +119,7 @@ namespace prjLocadora
             this.label3.Location = new System.Drawing.Point(15, 74);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 20);
+            this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Telefone";
             // 
@@ -137,7 +137,7 @@ namespace prjLocadora
             this.label2.Location = new System.Drawing.Point(316, 34);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 20);
+            this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Produtora";
             // 
@@ -212,6 +212,7 @@ namespace prjLocadora
             this.btnExcluir.TabIndex = 9;
             this.btnExcluir.Text = "E&xcluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAlterar
             // 
@@ -222,6 +223,7 @@ namespace prjLocadora
             this.btnAlterar.TabIndex = 10;
             this.btnAlterar.Text = "&Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // frmProdutoras
             // 
