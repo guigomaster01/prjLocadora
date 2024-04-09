@@ -17,7 +17,7 @@ namespace prjLocadora
         int registroAtual = 0;
         int totalRegistros = 0;
         DataTable dtProdutoras = new DataTable();
-        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650; Password=Guigoloko081092!!!";
+        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650; Password=";
         bool novo;
         public frmProdutoras()
         {

@@ -19,7 +19,7 @@ namespace prjLocadora
         bool novo;
         DataTable dtFilme = new DataTable();
         DataTable dtProdutoras = new DataTable();
-        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650; Password=Guigoloko081092!!!";
+        String connectionString = @"Server=darnassus\motorhead;Database=db_230650; User Id=230650; Password=";
 
         public frmFilmes()
         {
